@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 
 :root {
-  --primary-color: #6f55f2;
+  --primary-color: rgba(103, 101, 240, 1);
   --heading-color: #132742;
   --bg-gradient: linear-gradient(
     90deg,
@@ -16,5 +16,50 @@
         #b5a9f3
         #d3cef2
         #d7337a
+        #6765f0
+        #EEEAFF
     */
+}
+
+/* ======== reset default browser styles ======= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-name);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: unset;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ============ reusable class =========*/
+.container {
+  width: 1140px;
+  padding: 0px 15px;
+  margin: auto;
+}
+
+.section__title {
+  color: var(--heading-color);
+  font-weight: 800;
 }

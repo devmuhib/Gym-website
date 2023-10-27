@@ -11,6 +11,10 @@
   );
   --font-name: "Questrial", sans-serif;
 
+  button {
+    outline-color: transparent;
+  }
+  
   /* 
         #9785f2
         #b5a9f3
